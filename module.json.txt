@@ -1,0 +1,16 @@
+{
+  "id": "Hydration Bot",
+  "title": "Hyration Bot",
+  "description": "A gentle reminder to stay hydrated!",
+  "authors": 
+  [
+    {
+    "name": "Jake Hanna"
+    }
+  ],
+  "version": "1.0.0",
+  "scripts": 
+  [
+      "scripts/bot.js"
+  ]
+}
