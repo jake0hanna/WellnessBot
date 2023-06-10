@@ -1,7 +1,7 @@
 Hooks.on('ready', function() 
 {
   let reminderInterval = 10;
-  setInterval(sendReminder, game.settings.get('hydration-posture-reminder', 'reminderInterval') * 60000);
+  setInterval(sendReminder, reminderInterval * 60000);
 });
 
 
@@ -11,7 +11,7 @@ function sendReminder()
     'DRINK YOUR WATER DUMDUM!',
     'DO YOU WANT TO BE A HUNCHBACK?',
     'SOMETIMES I QUESTION IF YOU WANT TO SHRIVEL UP!',
-    'IF YOU DON'T FIX YOUR POSTURE I'LL CRASH THE GAME!'
+    'IF YOU DONT FIX YOUR POSTURE ILL CRASH THE GAME!'
   ];
 
   let reminderMessage = reminderMessages[Math.floor(Math.random() * reminderMessages.length)];
