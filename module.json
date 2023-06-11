@@ -1,15 +1,15 @@
 {
-  "id": "Hydration Bot",
+  "id": "WellnessBot",
   "title": "Hyration Bot",
   "description": "A gentle reminder to stay hydrated!",
-  "authors": 
+  "authors":
   [
     {
     "name": "Jake Hanna"
     }
   ],
   "version": "1.0.0",
-  "scripts": 
+  "scripts":
   [
       "scripts/bot.js"
   ]
